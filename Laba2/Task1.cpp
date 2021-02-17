@@ -6,4 +6,5 @@ bool isInArea(double x, double y) {
 		return (pow(x, 2) + pow(y, 2) <= 1);
 	else if (x <= 0 && y <= 0)
 		return (x <= 1 && y <= 1);
+	return 0;
 }
